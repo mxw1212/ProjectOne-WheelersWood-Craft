@@ -1,0 +1,51 @@
+
+/* ------------------- Home page/W W-C page css ---------------------- */
+
+html{
+	margin: 10px 10px 10px 10px;
+}
+
+body{
+	margin: 0;
+}
+
+.jumbotron{
+	padding-bottom: 20px;
+}
+
+.col-md-1 .col-md-2, .col-md-3, .col-md-5, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	padding-right: 0px;
+	padding-left: 30px;
+	margin-right: 0px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: transparent;
+	color: red;
+}
+
+.photoOne
+.photoTwo
+.photoThree{
+	transform: rotate(90deg);
+}
+
+
+/* --------------------- Pallet projects css code ------------------------ */
+
+.PalletProjects{
+	border: solid 2px;
+	
+}
+
+.kidsBedside{
+	transform: rotate(-90deg);
+}
+
+/* google fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Lobster', cursive;
+*/

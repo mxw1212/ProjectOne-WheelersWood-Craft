@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Dancing+Script|Satisfy|Shadows+Into+Light|Lobster" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Wheelers Wood-Craft</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-default">
+        
+            <!-- logo -->
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand active">
+                    W W-C
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- /logo -->
+            
+            <!-- menu links -->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="pallet-projects.html">Pallet Furniture</a></li>
+                    <li><a href="oak-projects.html">Oak Furniture</a></li>
+                    <li><a href="redwood-projects.html">RedWood Furniture</a></li>
+                    <li><a href="price-list.html">Price List</a></li>
+                    <li class="visible-xs"><a href="">Sign In</a></li>
+                </ul>
+
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="/SignUp" class='btn btn-default navbar-btn'>Sign Up</a>
+                    <p class="navbar-text"><i>Reclaimed Furniture</i></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <form id="SignUpForm" action="server_side_script.php" method="post">
+   Firstname:<input id="fName" name="fName" type="text"/>
+   Surname:<input id="sName" name="sName" type="text"/>
+   Email:<input id="email" name="email" type="email"/>
+   Password:<input id="password" name="password" type="password" />
+   Repeat password:<input id="password" name="password" type="password" />
+   <input type="submit" value="submit"/>
+</form>
+<div id="container">
+               <div id="input_types"><!-- wrapper for form-->
+                  <form>
+                     <!--assign classs to the labels-->
+                     <div class="label">First Name:</div> <input required="" id="fName" name="fName" type="text"/><br>
+                     <div class="label">Surname:</div><input id="sName" name="sName" type="text" /><br>
+                     <div class="label">House Number:</div><input id="hNumber" name="hNumber" type="text" /><br>
+                     <div class="label">Street Address</div><input id="sNumber" name="sNumber" type="text" /><br>
+                     <div class="label">City</div><input id="city" name="city" type="text" /><br>
+                     <div class="label">County</div><input id="county" name="county" type="text" /><br>
+                     <div class="label">Password: </div><input id="password" name="password" type="password" /><br>
+                     <div class="label">Re enter Password: </div><input id="rPassword" name="rPassword" type="rPassword" /><br>
+                     <div class="label">Email:</div><input id="email" name="email"  type="email" /><br>
+                     <div class="label">Website:</div><input id="website" name="website" type="url" /><br>
+                     <input  type="submit" class="submit" value="submit"/>
+                  </form> 
+               </div>
+</body>
+</html>
