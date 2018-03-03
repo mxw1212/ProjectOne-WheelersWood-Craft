@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Dancing+Script|Satisfy|Shadows+Into+Light|Lobster" rel="stylesheet">
-     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Wheelers Wood-Craft</title>
 </head>
 <body>
-    <!-- nav bar -->
-    <nav class="navbar navbar-default">
-        
+            <!-- menu links -->
+<header class="container-fluid">
+
+
+            
+    <div class="row">
             <!-- logo -->
-            <div class="container-fluid">
+        <div class="container-fluid logo-wwc">
             <div class="navbar-header">
                 <a href="/" class="navbar-brand active">
                     W W-C
@@ -22,45 +26,65 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                 </button>
-            </div>
+            </div> 
+        </div>
             <!-- /logo -->
             
-            <!-- menu links -->
-            <div class="navbar-collapse collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="pallet-projects.html">Pallet Furniture</a></li>
-                    <li><a href="oak-projects.html">Oak Furniture</a></li>
-                    <li><a href="redwood-projects.html">RedWood Furniture</a></li>
-                    <li><a href="price-list.html">Price List</a></li>
-                    <li class="visible-xs"><a href="">Sign In</a></li>
-                </ul>
-
-                <div class="navbar-header navbar-right hidden-xs">
-                    <a href="signUp" class='btn btn-default navbar-btn'>Sign Up</a>
-                    <p class="navbar-text"><i>Reclaimed Furniture</i></p>
+            <div class="container-fluid">
+                    <ul id="nav" class="list-inline clearfix">
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-home menuItem">
+                            <a href="index.html"class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>Home</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-pallet menuItem">
+                            <a href="pallet-projects.html" class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>Pallet Furniture</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-oak menuItem">
+                            <a href="oak-projects.html" class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>Oak Furniture</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-redwood menuItem">
+                            <a href="redwood-projects.html" class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>RedWood Furniture</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-PriceList menuItem">
+                            <a href="Price-List/Price-List.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>Price List</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ul-menu-color-signup menuItem">
+                            <a href="signUp.html" class="hvr-sweep-to-bottom">
+                                <i aria-hidden="true"></i>
+                                    <span>Sign Up</span></a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
         </div>
-    </nav>
+</header>
     
     <!-- Promotion Banner -->
-    
+    <div class="container-fluid">
     <div class="promotion-Banner">
         <div class="saleBanner">
-            <section class="jumbotron text-center">
+            <div class="jumbotron text-center">
                 <h1 class="text-uppercase sale">15% off THIS MONTH!!</h1>
                 
                 <p>Sign up today and get 15% discount on your first order!!</p>
-            </section>
+            </div>
         </div>
+    </div>
     </div>
     
     <!-- best of work gallery -->
     
-        <section class="gallery">
+        <section>
+            <div class ="container-fluid gallery">
             <div class="row rowGallery col-xs-12">
               <div class="col-xs-12 col-md-3 colGallery">
                 <a href="" class="BikeShed image">
@@ -83,13 +107,13 @@
                 </a>
               </div>
             </div>
-        </section>
+        </div>
 
     <!-- Bio on Wheelers Wood-Craft -->
     
-    <section>
-        <div>
-            <h2>About Us</h2>
+        <div class="container-fluid about-us">
+            <div class="bio">
+                <h2>About Us</h2>
 	            <p class="Intro">
 	                Wheelers Wood-Craft is a family run business whom use recycled wood to make fantastic rustic furniture. 
 	                The business was established in 2010 when the first EUR pallets was turned into a TV stand.
@@ -106,15 +130,18 @@
                 	When required new wood is used for some custom builds i.e. wooden vivarium, kids low profile bed, 
                 	kitchen sliding cupboard, workshop desks, router table, bike shed, walk in wardrobes and many other varied items.
                 </p>
+            </div>
         </div>
     </section>
     
     <!-- feedback -->
-    <section class="feedback">
+    <div class="container-fluid feedback">
             <div class="row">
                 <div class="col-xs-12 hidden-xs">
                     <div class="page-header">
-                        <h2 class="text-uppercase">feedback</h2>
+                        <h2 class="text-uppercase">
+                            <i class="fa fa-comments" aria-hidden="true"></i>feedback
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -122,49 +149,100 @@
                 <div class="col-xs-12 col-md-4 hidden-xs">
                     <div class="media">
                         <div class="media-left">
-                            <img src="images/Aloy.jpg" class="img-circle media-object photoOne" height=150 width=150>
+                            <img style="transform:rotate(90deg)" src="images/Aloy.jpg" class="img-circle media-object" height=150 width=150/>
                         </div>
                     <div class="media-body">
                         <blockquote class="quote">
                             <p>My new Vivarium is so BIG and warm. Thank you.</p>
-                            <footer>Aloy on <cite title="Facebook">Facebook</cite></footer>
+                            <div>Aloy on <cite title="Facebook">
+                                <a href="" class="feedback-facebook">Facebook</a>
+                                </cite>
+                            </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-            <div class="row">
                 <div class="col-xs-12 col-md-4 hidden-xs">
                     <div class="media">
                         <div class="media-left">
-                            <img src="images/Gandolf.jpg" class="img-circle media-object photoTwo" height=150 width=150>
+                            <img style="transform:rotate(90deg)" src="images/Gandolf.jpg" class="img-circle media-object" height=150 width=150/>
                         </div>
                     <div class="media-body">
                         <blockquote class="quote">
                             <p>The Bath self has kept the tunes pumping!!.</p>
-                            <footer>Gandolf on <cite title="Facebook">Facebook</cite></footer>
+                            <div>Gandolf on <cite title="Facebook">
+                                <a href="" class="feedback-facebook">Facebook</a>
+                                </cite>
+                            </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
             
-            <div class="row">
                 <div class="col-xs-12 col-md-4 hidden-xs">
                     <div class="media">
                         <div class="media-left">
-                            <img src="images/Spike.jpg" class="img-circle media-object photoThree" height=150 width=150>
+                            <img style="transform:rotate(90deg)" src="images/Spike.jpg" class="img-circle media-object" height=150 width=150/>
                         </div>
                     <div class="media-body">
                         <blockquote class="quote">
                             <p>The new DVD stand is such a great height to jump off!</p>
-                            <footer>Spike on <cite title="Facebook">Facebook</cite></footer>
+                            <div>Spike on <cite title="Facebook">
+                                <a href="" class="feedback-facebook">Facebook</a>
+                                </cite>
+                            </div>
                         </blockquote>
                     </div>
                 </div>
             </div>
-
-    </section>
+    </div>
+    </div>
     
     <!-- footer FB Copyright -->
+        <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4 text-center">
+                <h5 class="uppercase general-sub">Contact</h5>
+                <p class="inline-block about">
+                    
+                    Wheelers-Wood-Craft</br>
+                    Unit 32A</br>
+                    Brighouse</br>
+                    West Yorkshire</br>
+                    01484 123456</br>
+                    </br>
+                    VAT NUMBER 000 0000
+                </p>
+                
+            </div>
+                <div class="col-sm-4 text-center">
+                    <h5 class="uppercase general-sub">Download Price List</h5>
+                    <p class="inline-block Price-List">
+                       </br>
+                       </br>
+                       Need Price List? Download it here.
+                        <a href="Price-List/Price-List.pdf" target="_blank" class="Price-List-pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+                    </p>
+                
+                </div>
+                    <div class="col-sm-4 text-center">
+                        <h5 class="uppercase general-sub">My Social Links</h5>
+                        </br>
+                        </br>
+                        <ul class="list-inline social-links">
+                            <li><a target="_blank" href="https://www.facebook.com/matthew.s.wheeler"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/matthew-stephen-wheeler-3634b414b/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target="_blank" href="https://plus.google.com/107360989853260518589#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                            
+                        </ul>
+                
+                    </div>
+        </div>
+        <div class="text-center"><p>&copy; 2018 Wheelers-Wood-Craft.com<p></div>
+    </footer>
     
 </body>
 </html>
