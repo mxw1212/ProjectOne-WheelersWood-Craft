@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace:100,200,300,400,500,600,700|Dancing+Script:100,200,300,400,500,600,700|Satisfy:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700|Lobster:100,200,300,400,500,600,700');
 
-/* ------------------- Home page/W W-C page css ---------------------- */
 html{
 	margin-left: 10px;
 	padding: 0;
@@ -9,26 +8,7 @@ body{
 	margin: 0;
 }
 
-/*------------------------------ logo and photo ---------------------------*/
-header{
-
-}
-
-.logo-wwc {
-    width: 30%;
-    height: 60px;
-    margin: auto;
-}
-
-.website-name {
-
-    font-family: "Satisfy", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #663399;
-}
 /*--------------------------------- Menu bar --------------------------------*/
-
 
 .ul-menu-color-home{
     background-color: #e67e22;
@@ -42,16 +22,8 @@ header{
     background-color: #3498db;
 }
 
-.ul-menu-color-redwood{
-    background-color: #ff6347;
-}
-
 .ul-menu-color-PriceList{
     background-color: #1c4a6c;
-}
-
-.ul-menu-color-signup{
-    background-color: #525252;
 }
 
 #nav{
@@ -62,10 +34,14 @@ header{
     padding:0;
 }
 
+.menu-box {
+    margin-top: 10px;
+}
+
 .menuItem{
     height: 120px;
     text-align: center;
-    padding: 0;
+    padding:0;
 }
 
 
@@ -77,7 +53,7 @@ header{
 }
 
 .menuItem a i{
-    padding-top: 50px;
+    padding-top: 40px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -90,10 +66,11 @@ header{
     text-align: center;
     text-transform: uppercase;
     font-family: "Dancing Script", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 
 /*------------------------------ Hover.css ----------------------------------*/
 
@@ -115,6 +92,10 @@ h1,h2,h3,h4{
 
 .inline-block{
     display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 
@@ -143,9 +124,6 @@ h1,h2,h3,h4{
     background: #bb0000;
 }
 
-
-
-
 /*---------------------------------Sale Banner-------------------------------*/
 
 /* The animation code */
@@ -166,6 +144,17 @@ h1,h2,h3,h4{
     animation-iteration-count: infinite;
 }
 
+.order-today {
+    
+}
+
+/*---------------------------------Audio-Bio---------------------------------*/
+
+audio{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 /*---------------------------------About Us----------------------------------*/
 
@@ -178,7 +167,7 @@ h1,h2,h3,h4{
 	background-color: #dde0e1;
 }
 
-.h2-title {
+.h1-title {
 
     font-family: "Lobster", sans-serif;
     font-weight: 700;
@@ -187,7 +176,12 @@ h1,h2,h3,h4{
 .Intro {
     font-family: "Shadows Into Light", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.business-name {
+    font-size:25px;
+    font-weight: bold;
 }
 
 
@@ -203,7 +197,8 @@ footer{
     background-color: #778899;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 footer .Price-List-pdf{
@@ -223,15 +218,19 @@ footer .Price-List-pdf i:hover{
 }
 
 #footer-details{
-    margin: 20px;
+    margin: 10px;
 }
 
-.contact,.Price-List{
-    font-size: 10px;
+#link-color {
+    color: #cd5c5c;
+}
+
+.contact, .order-today, .Price-List{
+    font-size: 12px;
 }
 
 .social-links{
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     
 }
 .social-links li a i {
@@ -251,14 +250,47 @@ footer .Price-List-pdf i:hover{
 
 /* --------------------- Pallet projects css code ------------------------ */
 
-.PalletProjects{
-	border: solid 2px;
-	
+.video-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Lobster", sans-serif;
 }
 
-.kidsBedside{
-	transform: rotate(-90deg);
+table, th, td {
+   border: 1px solid black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
 }
+
+th {
+    text-align: center;
+    font-family: "Covered By Your Grace", sans-serif;
+    font-size: 40px;
+    background-color: #dcdcdc;
+}
+
+td {
+    font-family: "Satisfy", sans-serif;
+    font-size: 30px;
+    padding-left: 5px;
+    background-color: #fffaf0;
+
+}
+
+.td {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pallet-gallery {
+    width: 100%;
+}
+
+
 
 /* google fonts
 font-family: 'Dancing Script', cursive;
