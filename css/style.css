@@ -191,6 +191,71 @@ audio{
 	padding-bottom: 20px;
 }
 
+
+/* --------------------- Pallet projects css code ------------------------ */
+
+.video-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Lobster", sans-serif;
+}
+/*----------Table-----------------------*/
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+   border: 1px solid black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+th {
+    text-align: center;
+    font-family: "Covered By Your Grace", sans-serif;
+    font-size: 40px;
+    background-color: #dcdcdc;
+}
+
+td {
+    font-family: "Satisfy", sans-serif;
+    font-size: 30px;
+    padding-left: 5px;
+    background-color: #fffaf0;
+
+}
+
+.td {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pallet-gallery {
+    width: 100%;
+}
+
+/*-------------------------------Order Form-----------------------------------*/
+
+.order-form {
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+
+.title-decription {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-size: 20px;
+}
+
+.btn-secondary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*------------------------------ Footer -------------------------------------*/
 
 footer{
@@ -248,49 +313,6 @@ footer .Price-List-pdf i:hover{
     -o-transition: all 0.35s ease-in-out;
 }
 
-/* --------------------- Pallet projects css code ------------------------ */
-
-.video-title {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "Lobster", sans-serif;
-}
-
-table, th, td {
-   border: 1px solid black;
-   margin-top: 20px;
-   margin-bottom: 20px;
-
-}
-
-th {
-    text-align: center;
-    font-family: "Covered By Your Grace", sans-serif;
-    font-size: 40px;
-    background-color: #dcdcdc;
-}
-
-td {
-    font-family: "Satisfy", sans-serif;
-    font-size: 30px;
-    padding-left: 5px;
-    background-color: #fffaf0;
-
-}
-
-.td {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.pallet-gallery {
-    width: 100%;
-}
-
-
 
 /* google fonts
 font-family: 'Dancing Script', cursive;
@@ -308,7 +330,7 @@ font-family: 'Lobster', cursive;
     display: table-cell;
     }
 
-    .center-form{
+.center-form{
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
